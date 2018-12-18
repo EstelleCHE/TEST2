@@ -16,16 +16,19 @@ let soif = document.querySelector(".soif");
 let manger = document.querySelector(".manger");
 let actLegume = document.querySelector(".legume");
 let actDessert = document.querySelector(".dessert");
+
 // Les boutons d'action donner à boire
 let boire = document.querySelector(".boire");
 let actEau = document.querySelector(".eau");
 let actJus = document.querySelector(".jus");
+
 // Les boutons d'action jouer
 let actJouer = document.querySelector(".jouer");
 let actBallon = document.querySelector(".ballon");
 let actVelo = document.querySelector(".velo");
 let actDeguiser = document.querySelector(".deguiser");
 let actBoue = document.querySelector(".boue");
+
 // les boutons d'action promener
 let actPromener = document.querySelector(".promener");
 let actMer = document.querySelector(".mer");
