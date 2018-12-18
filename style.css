@@ -1,0 +1,204 @@
+a, abbr, acronym, address, applet, article, aside, audio,
+b, blockquote, big, body,
+center, canvas, caption, cite, code, command,
+datalist, dd, del, details, dfn, dl, div, dt,
+em, embed,
+fieldset, figcaption, figure, font, footer, form,
+h1, h2, h3, h4, h5, h6, header, hgroup, html,
+i, iframe, img, ins,
+kbd,
+keygen,
+label, legend, li,
+meter,
+nav,
+object, ol, output,
+p, pre, progress,
+q,
+s, samp, section, small, span, source, strike, strong, sub, sup,
+table, tbody, tfoot, thead, th, tr, tdvideo, tt,
+u, ul,
+var {
+    background: transparent;
+    font-size: 100%;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+/* fin */
+
+
+ul {
+    list-style: none;
+}
+
+.legume {
+    display: none;
+}
+
+.dessert {
+    display: none;
+}
+
+.eau {
+    display: none;
+}
+
+.jus {
+    display: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+    /* height: 200px;
+    width: 200px; */
+}
+
+.contentUp {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 3;
+
+}
+
+
+.aireJ {
+    background: url(img/back.jpg) no-repeat;
+    background-size: cover;
+    flex-grow: 4;
+    padding: unset;
+}
+
+#pourimg {
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.aireJG {
+    flex-grow: 4;
+    align-self: flex-end;
+
+}
+
+.aireJG > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 150px;
+    vertical-align: middle;
+
+}
+
+.aireJD {
+    flex-grow: 2;
+}
+
+
+.stats {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-content: center;
+    margin: unset;
+    padding: unset;
+}
+
+
+.stats > li {
+    text-align: center;
+    width: 200px;
+    margin: auto;
+
+}
+
+
+.contentDown {
+    flex-grow: 1;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+    /* flex-direction:row; */
+
+}
+
+.actionG > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.actionD > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.action button {
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    */ -webkit-box-shadow: 5px 5px 5px 0px deeppink,
+    inset 4px 4px 15px 0px hotpink,
+    5px 5px 15px -12px deeppink;
+    box-shadow: 5px 5px 5px 0px deeppink, inset 4px 4px 15px 0px deeppink, 5px 5px 15px -12px hotpink;
+}
+
+/*.action button {*/
+/*text-align: center;*/
+/*width: 150px;*/
+/*height: 20px;*/
+/*}*/
+
+.legume, .dessert, .eau, .jus, .ballon, .velo, .deguiser, .boue, .mer, .neige, .cirque {
+    display: none;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    */ -webkit-box-shadow: 5px 5px 5px 0px #27e7ff,
+    inset 4px 4px 15px 0px #88ff83,
+    5px 5px 15px -12px #1d21ff;
+    box-shadow: 5px 5px 5px 0px #1d21ff, inset 4px 4px 15px 0px #27e7ff, 5px 5px 15px -12px #88ff83;
+}
+
+.actionD button {
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    */ -webkit-box-shadow: 5px 5px 5px 0px deeppink,
+    inset 4px 4px 15px 0px hotpink,
+    5px 5px 15px -12px deeppink;
+    box-shadow: 5px 5px 5px 0px deeppink, inset 4px 4px 15px 0px deeppink, 5px 5px 15px -12px hotpink;
+}
+
+progress {
+    width: 180px;
+    height: 10px;
+    margin: 60px auto;
+    display: block;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+}
+
+progress::-webkit-progress-bar {
+    background: lightpink;
+    border-radius: 50px;
+    padding: 2px;
+    box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
+}
+
+progress::-webkit-progress-value {
+    border-radius: 50px;
+    box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
+    background: linear-gradient(135deg, red, blue);
+    background-size: 25px 14px, 100% 100%, 100% 100%;
+    animation: move 5s linear 1s infinite alternate;
+}

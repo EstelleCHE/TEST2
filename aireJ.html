@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- background général-->
+<main>
+    <contentUp class="contentUp">  <!-- a Flexer -->
+        <div class="aireJ"> <!--mettre un background + flexer -->
+            <div id="pourimg">
+                <div class="aireJG"> <!-- //width="20%" height="20%"> -->
+                </div>
+                <div class="aireJD">
+                </div>
+            </div>
+        </div>
+        <div class="stats"> <!-- a flexer-->
+            <ul>
+                <li class="stats sante"></li>
+                <li class="stats fatigue"></li>
+                <li class="stats humeur"></li>
+                <li class="stats age"></li>
+                <li class="stats poids"></li>
+                <li class="stats faim"></li>
+                <li class="stats soif"></li>
+            </ul>
+        </div>
+    </contentUp>
+
+    <div class="dialogue"><h2>MESSAGE</h2></div>
+
+    <contentDown class="contentDown"><!-- a Flexer-->
+
+        <div class="actionG">
+            <ul>
+                <li class="action manger"><button>MANGER</button></li>
+                <ul>
+                    <li><button class="action manger legume">légumes</button></li>
+                    <li><button class="action manger dessert">dessert</button></li>
+                </ul>
+                <li class="action boire"><button>BOIRE</button></li>
+                <ul>
+                    <li><button class="action boire eau">... de l'eau</button></li>
+                    <li><button class="action boire jus">.. du jus de fruits</button></li>
+                </ul>
+            </ul>
+        </div>
+        <div class="actionC">
+            <ul>
+                <li class="action jouer"><button>JOUER</button></li>
+                <li><button class="action jouer ballon">Jouer au ballon</button></li>
+                <li><button class="action jouer velo">Faire du vélo</button></li>
+                <li><button class="action jouer deguiser">Se déguiser</button></li>
+                <li><button class="action jouer boue">Sauter dans la boue</button></li>
+            </ul>
+            <ul>
+                <li class="action promener"><button>PROMENER</button></li>
+                <li><button class="action promener mer">Aller à la plage</button></li>
+                <li><button class="action promener neige">Aller à la neige</button></li>
+                <li><button class="action promener cirque">Aller au cirque</button></li>
+                <!--<li><button class="jouer boue">Sauter dans la boue</button></li>-->
+            </ul>
+        </div>
+        <div class="actionD">
+            <ul>
+                <button class="action dormir">Dormir</button>
+                <button type="button" class="action pause">Pause</button>
+            </ul>
+        </div>
+    </contentDown>
+
+</main>
+<script src="Tamagoshi.js"></script>
+</body>
+</html>
